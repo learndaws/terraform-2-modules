@@ -6,9 +6,8 @@ variable "instance_type" {
 variable "tags" {
     type = map 
     default = {
-        Name : "Server-1"
-        Environment : "Dev"
-        Project : "Roboshop-Module"
+        Name = "Server-1"
+        Environment = "Dev"
+        Project = "Roboshop-Module"
     }
 }
-

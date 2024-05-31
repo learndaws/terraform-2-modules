@@ -1,9 +1,7 @@
 resource "aws_instance" "TF_Second_EC2" {
-  ami           = 
+  ami           = var.ami_id
   instance_type = var.instance_type
 
-  tags = {
-    Name = "Prod"
-  }
+  tags = var.tags
 }
 
